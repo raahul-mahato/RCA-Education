@@ -23,12 +23,13 @@ export interface Testimonial {
   avatar: string;
 }
 
-export enum AppRoute {
-  HOME = 'home',
-  COURSES = 'courses',
-  MOCK_TESTS = 'mock-tests',
-  STUDY_MATERIAL = 'study-material',
-  ABOUT = 'about',
-  CONTACT = 'contact',
-  LOGIN = 'login'
-}
+export const AppRoute = {
+  HOME : 'home',
+  COURSES : 'courses',
+  MOCK_TESTS : 'mock-tests',
+  STUDY_MATERIAL : 'study-material',
+  ABOUT : 'about',
+  CONTACT : 'contact',
+  LOGIN : 'login'
+} as const;
+export type AppRoute = typeof AppRoute[keyof typeof AppRoute];

@@ -4,7 +4,7 @@ import Navbar from './components/Navbar';
 import CourseGrid from './components/CourseGrid';
 import Footer from './components/Footer';
 import AiCounselor from './components/AiCounselor';
-import { NEWS_ITEMS, TESTIMONIALS } from './constants.tsx';
+import { NEWS_ITEMS } from './constants.tsx';
 
 // --- Page Components ---
 

@@ -1,7 +1,6 @@
 
 import React, { useState, useMemo } from 'react';
 import { COURSES } from '../constants.tsx';
-import type { Course } from '../types';
 
 const CourseGrid: React.FC = () => {
   const [activeTab, setActiveTab] = useState('All');
