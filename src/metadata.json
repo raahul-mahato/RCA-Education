@@ -1,0 +1,7 @@
+{
+  "name": "RCA Education AI Portal",
+  "description": "A high-performance educational platform inspired by RCA Education, featuring AI-powered course counseling, real-time news updates, and comprehensive competitive exam preparation resources.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
