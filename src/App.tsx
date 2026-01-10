@@ -37,7 +37,7 @@ const Home: React.FC = () => (
           <div className="w-full lg:w-1/2 relative">
             <div className="relative z-10 rounded-3xl overflow-hidden shadow-2xl ring-8 ring-white/10">
               <img 
-                src="https://picsum.photos/seed/education/800/600" 
+                src="principal.webp" 
                 alt="Education" 
                 className="w-full h-auto"
               />
@@ -217,14 +217,14 @@ const Contact: React.FC = () => (
               <i className="fas fa-map-marker-alt text-rca-orange mt-1"></i>
               <div>
                 <p className="font-bold">Head Office</p>
-                <p className="text-white/70 text-sm">Main Road, Near Town Hall, Purulia, WB 723101</p>
+                <p className="text-white/70 text-sm">Webel IT Park, Science Museum Road, Purulia, WB 723101</p>
               </div>
             </div>
             <div className="flex gap-4">
               <i className="fas fa-phone-alt text-rca-orange mt-1"></i>
               <div>
                 <p className="font-bold">Phone</p>
-                <p className="text-white/70 text-sm">+91 98765 43210 / 03252-222333</p>
+                <p className="text-white/70 text-sm">+91 97491 76587 / +91 93335 51670 </p>
               </div>
             </div>
             <div className="flex gap-4">

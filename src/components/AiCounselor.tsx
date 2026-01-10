@@ -49,7 +49,7 @@ const AiCounselor: React.FC = () => {
                 <i className="fas fa-magic text-rca-orange"></i>
               </div>
               <div>
-                <h3 className="font-bold text-sm">AI Career Counselor</h3>
+                <h3 className="font-bold text-sm">RCA EDUCATION</h3>
                 <div className="flex items-center gap-1.5">
                   <div className="w-2 h-2 bg-green-400 rounded-full animate-pulse"></div>
                   <span className="text-[10px] text-white/70 uppercase">Online</span>
@@ -105,7 +105,7 @@ const AiCounselor: React.FC = () => {
                 <i className="fas fa-paper-plane text-xs"></i>
               </button>
             </div>
-            <p className="text-[9px] text-center text-gray-400 mt-2">Powered by RCA Gemini AI</p>
+            <p className="text-[9px] text-center text-gray-400 mt-2">Powered by RCA AI</p>
           </div>
         </div>
       )}

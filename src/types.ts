@@ -5,6 +5,7 @@ export interface Course {
   category: string;
   price: string;
   image: string;
+  link: string;
   duration: string;
   tags: string[];
 }

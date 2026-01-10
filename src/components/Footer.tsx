@@ -10,7 +10,7 @@ const Footer: React.FC = () => {
           <div>
             <div className="flex items-center mb-6">
               <div className="w-10 h-10 bg-white rounded-full flex items-center justify-center mr-3">
-                <span className="text-rca-blue font-bold">RCA</span>
+                <img src="favicon.webp" alt="RCA" />
               </div>
               <h2 className="text-xl font-bold text-white uppercase">RCA Education</h2>
             </div>
@@ -63,14 +63,14 @@ const Footer: React.FC = () => {
               </li>
               <li className="flex items-center">
                 <i className="fas fa-envelope mr-3 text-rca-orange"></i>
-                <span>contact@rcaeducation.in</span>
+                <span>support@rcaeducation.in</span>
               </li>
             </ul>
           </div>
         </div>
 
         <div className="border-t border-white/10 pt-8 flex flex-col md:flex-row justify-between items-center text-[12px] text-gray-500 uppercase font-medium tracking-widest">
-          <p>&copy; 2024 RCA Education. All Rights Reserved.</p>
+          <p>&copy; 2026 RCA Education. All Rights Reserved.</p>
           <div className="flex space-x-6 mt-4 md:mt-0">
             <a href="#" className="hover:text-white">Privacy Policy</a>
             <a href="#" className="hover:text-white">Terms of Service</a>

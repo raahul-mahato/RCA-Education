@@ -2,58 +2,64 @@ import type {Course, NewsItem, Testimonial} from './types'
 export const COURSES: Course[] = [
   {
     id: '1',
-    title: 'SSC CGL Master Course 2024',
-    category: 'SSC',
-    price: '₹2,499',
-    image: 'https://picsum.photos/seed/ssc/400/250',
-    duration: '6 Months',
-    tags: ['Maths', 'English', 'Reasoning', 'GK']
+    title: 'Combined Foundation Batch 2026',
+    category: 'Combo',
+    price: '₹1,499',
+    image: 'https://appx-content-v2.classx.co.in/paid_course3/2026-01-02-0_9068946901066892.jpeg',
+    link: 'https://rcaeducation.akamai.net.in/new-courses/110-combined-foundation-2026',
+    duration: '8 Months',
+    tags: ['Comprehensive', 'All Subjects']
   },
   {
     id: '2',
-    title: 'RRB NTPC & Group D Crash Course',
-    category: 'Railway',
+    title: 'PSC SPECIAL 2026',
+    category: 'WBPSC',
     price: '₹1,499',
-    image: 'https://picsum.photos/seed/railway/400/250',
-    duration: '3 Months',
-    tags: ['Science', 'General Awareness', 'Maths']
+    image: 'https://appx-content-v2.classx.co.in/paid_course3/2026-01-02-0_7980988374505505.jpeg',
+    link: 'https://rcaeducation.akamai.net.in/new-courses/110-combined-foundation-2026',
+    duration: '8 Months',
+    tags: ['Science', 'General Awareness', 'Maths', 'English']
   },
   {
     id: '3',
-    title: 'WBCS Foundation Batch (Prelims + Mains)',
-    category: 'WBCS',
-    price: '₹4,999',
-    image: 'https://picsum.photos/seed/wbcs/400/250',
+    title: 'WBP & KP 2026 (Prelims + Mains)',
+    category: 'Police',
+    price: '₹1,499',
+    image: 'https://appx-content-v2.classx.co.in/paid_course3/2026-01-02-0_7581271926569991.jpeg',
+    link: 'https://rcaeducation.akamai.net.in/new-courses/110-combined-foundation-2026',
     duration: '1 Year',
-    tags: ['History', 'Geography', 'Polity', 'Economics']
+    tags: ['History', 'Geography', 'Polity', 'Economics', 'Maths', 'Reasoning']
   },
   {
     id: '4',
-    title: 'KP Constable Special Batch',
-    category: 'Police',
-    price: '₹999',
-    image: 'https://picsum.photos/seed/police/400/250',
-    duration: '4 Months',
+    title: 'SSC Special (CGL, CHSL & MTS) 2026',
+    category: 'SSC',
+    price: '₹1,499',
+    image: 'https://appx-content-v2.classx.co.in/paid_course3/2026-01-02-0_9137430183145794.jpeg',
+    link: 'https://rcaeducation.akamai.net.in/new-courses/110-combined-foundation-2026',
+    duration: '12 Months',
     tags: ['Mock Tests', 'Live Classes']
   },
   {
     id: '5',
+    title: 'Railway Special 2026 (All Exams)',
+    category: 'Railway',
+    price: '₹1,999',
+    image: 'https://appx-content-v2.classx.co.in/paid_course3/2026-01-02-0_828858186154489.jpeg',
+    link: 'https://rcaeducation.akamai.net.in/new-courses/110-combined-foundation-2026',
+    duration: '8 Months',
+    tags: ['Comprehensive', 'All Subjects']
+  },
+  {
+    id: '6',
     title: 'Banking Awareness & IBPS Special',
     category: 'Banking',
     price: '₹1,999',
     image: 'https://picsum.photos/seed/banking/400/250',
+    link: 'https://rcaeducation.akamai.net.in/new-courses/110-combined-foundation-2026',
     duration: '5 Months',
     tags: ['Aptitude', 'Data Interpretation']
   },
-  {
-    id: '6',
-    title: 'General Combined Batch (All Exams)',
-    category: 'Combo',
-    price: '₹3,499',
-    image: 'https://picsum.photos/seed/combo/400/250',
-    duration: '8 Months',
-    tags: ['Comprehensive', 'All Subjects']
-  }
 ];
 
 export const NEWS_ITEMS: NewsItem[] = [
