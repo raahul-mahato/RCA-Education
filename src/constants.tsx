@@ -16,7 +16,7 @@ export const COURSES: Course[] = [
     category: 'WBPSC',
     price: '₹1,499',
     image: 'https://appx-content-v2.classx.co.in/paid_course3/2026-01-02-0_7980988374505505.jpeg',
-    link: 'https://rcaeducation.akamai.net.in/new-courses/110-combined-foundation-2026',
+    link: 'https://rcaeducation.akamai.net.in/new-courses/111-psc-special-2026',
     duration: '8 Months',
     tags: ['Science', 'General Awareness', 'Maths', 'English']
   },
@@ -26,7 +26,7 @@ export const COURSES: Course[] = [
     category: 'Police',
     price: '₹1,499',
     image: 'https://appx-content-v2.classx.co.in/paid_course3/2026-01-02-0_7581271926569991.jpeg',
-    link: 'https://rcaeducation.akamai.net.in/new-courses/110-combined-foundation-2026',
+    link: 'https://rcaeducation.akamai.net.in/new-courses/112-wbp-kp-special-2026',
     duration: '1 Year',
     tags: ['History', 'Geography', 'Polity', 'Economics', 'Maths', 'Reasoning']
   },
@@ -36,7 +36,7 @@ export const COURSES: Course[] = [
     category: 'SSC',
     price: '₹1,499',
     image: 'https://appx-content-v2.classx.co.in/paid_course3/2026-01-02-0_9137430183145794.jpeg',
-    link: 'https://rcaeducation.akamai.net.in/new-courses/110-combined-foundation-2026',
+    link: 'https://rcaeducation.akamai.net.in/new-courses/114-ssc-special-cgl-chsl-mts-2026',
     duration: '12 Months',
     tags: ['Mock Tests', 'Live Classes']
   },
@@ -46,20 +46,20 @@ export const COURSES: Course[] = [
     category: 'Railway',
     price: '₹1,999',
     image: 'https://appx-content-v2.classx.co.in/paid_course3/2026-01-02-0_828858186154489.jpeg',
-    link: 'https://rcaeducation.akamai.net.in/new-courses/110-combined-foundation-2026',
+    link: 'https://rcaeducation.akamai.net.in/new-courses/113-railway-special-2026',
     duration: '8 Months',
     tags: ['Comprehensive', 'All Subjects']
   },
-  {
-    id: '6',
-    title: 'Banking Awareness & IBPS Special',
-    category: 'Banking',
-    price: '₹1,999',
-    image: 'https://picsum.photos/seed/banking/400/250',
-    link: 'https://rcaeducation.akamai.net.in/new-courses/110-combined-foundation-2026',
-    duration: '5 Months',
-    tags: ['Aptitude', 'Data Interpretation']
-  },
+  // {
+    // id: '6',
+    // title: 'Banking Awareness & IBPS Special',
+    // category: 'Banking',
+    // price: '₹1,999',
+    // image: 'https://picsum.photos/seed/banking/400/250',
+    // link: 'https://rcaeducation.akamai.net.in/new-courses/110-combined-foundation-2026',
+    // duration: '5 Months',
+    // tags: ['Aptitude', 'Data Interpretation']
+  // },
 ];
 
 export const NEWS_ITEMS: NewsItem[] = [
